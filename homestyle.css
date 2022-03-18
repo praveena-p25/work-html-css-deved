@@ -1,0 +1,53 @@
+body {
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: cornflowerblue;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+header nav ul {
+  float: right;
+  list-style-type: none;
+  display: flex;
+  line-height: 80px;
+}
+header h2 {
+  line-height: 80px;
+}
+
+header nav ul li {
+  width: 100px;
+}
+
+header nav ul li a {
+  text-transform: uppercase;
+  color: crimson;
+}
+footer {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background: crimson;
+  width: 100%;
+}
+
+footer section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+footer section div {
+  width: 100px;
+  margin: auto;
+  background-color: darkolivegreen;
+}
